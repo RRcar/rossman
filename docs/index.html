@@ -11748,16 +11748,13 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="o">%%</span><span class="k">html</span>
 
 Page Links — &lt;a href=&quot;index.html&quot; target=&quot;_self&quot;&gt;Project Overview Page&lt;/a&gt;
-— &lt;a href=&quot;page1.html&quot; target=&quot;_self&quot;&gt;Datasets Page&lt;/a&gt;
-— &lt;a href=&quot;page2.html&quot; target=&quot;_self&quot;&gt;Data Imputation Page&lt;/a&gt;
-— &lt;a href=&quot;page3.html&quot; target=&quot;_self&quot;&gt;Data Exploration Page&lt;/a&gt;
-— &lt;a href=&quot;page4.html&quot; target=&quot;_self&quot;&gt;Data Modeling Page&lt;/a&gt; —
+— &lt;a href=&quot;page1.html&quot; target=&quot;_self&quot;&gt;Project Page&lt;/a&gt;
 </pre></div>
 
 </div>
@@ -11773,10 +11770,7 @@ Page Links — &lt;a href=&quot;index.html&quot; target=&quot;_self&quot;&gt;Pro
 <div class="output_html rendered_html output_subarea ">
 
 Page Links — <a href="index.html" target="_self">Project Overview Page</a>
-— <a href="page1.html" target="_self">Datasets Page</a>
-— <a href="page2.html" target="_self">Data Imputation Page</a>
-— <a href="page3.html" target="_self">Data Exploration Page</a>
-— <a href="page4.html" target="_self">Data Modeling Page</a> —
+— <a href="page1.html" target="_self">Project Page</a>
 </div>
 
 </div>
@@ -11787,7 +11781,7 @@ Page Links — <a href="index.html" target="_self">Project Overview Page</a>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Toggle raw code on/off, from stackoverflow</span>
@@ -11816,7 +11810,7 @@ Page Links — <a href="index.html" target="_self">Project Overview Page</a>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[39]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <script>
@@ -11845,6 +11839,25 @@ $( document ).ready(code_toggle);
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="styles/p1.png" alt="rossman"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Project-Overview-&#8212;-Rossman-Stores">Project Overview &#8212; Rossman Stores<a class="anchor-link" href="#Project-Overview-&#8212;-Rossman-Stores">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Project-Description">Project Description<a class="anchor-link" href="#Project-Description">&#182;</a></h3><p>Rossmann is the largest drugstore in Germany, operating at least 1,115 drugstores within the country and over 3,000 drugstores in Europe. Most recently, the company reported 9.4% growth in sales volume, with annual sales revenue totaling €7.9 billion (approximately $8.5 billion USD). 
  
 In 2015, Rossmann sponsored a Kaggle competition focused on predicting its German drugstores’ sales over 6 continuous weeks, based off over 2 years of data. Our undergraduate team was tasked with replicating the Kaggle competition prediction using what we learned in the course, existing literature, and published attempts of the competition.</p>
@@ -11857,15 +11870,9 @@ In 2015, Rossmann sponsored a Kaggle competition focused on predicting its Germa
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Datasets">Datasets<a class="anchor-link" href="#Datasets">&#182;</a></h3><p>The training dataset was comprised of 1,115 stores spanning 2 12 years. The training set lists the store numbers (IDs 1 through 1,115), as well as the date (between 1/1/13 and 7/31/15). The following are attributes associated with each store on each date:</p>
-<p>[]</p>
-<p>Number of Observations: 1,017,209</p>
-<p>The test dataset was similarly structured, but it naturally excluded sales and customer volume:</p>
-<p>[]</p>
-<p>Number of Observations: 41,088</p>
-<p>The store description dataset further categorized stores:</p>
-<p>[]</p>
-<p>Number of Observations: 1,115</p>
+<h3 id="Datasets">Datasets<a class="anchor-link" href="#Datasets">&#182;</a></h3><p>The training dataset was comprised of 1,115 stores spanning over 2.5 years. The training set lists the store numbers (IDs 1 through 1,115), as well as the date (between 1/1/13 and 7/31/15). There are 1,017,209 observations.The following are attributes associated with each store on each date:</p>
+<p><img src="styles/p2.png" alt="data1"></p>
+<p>The test dataset was similarly structured, but it naturally excluded sales and customer volume.</p>
 <p>Perhaps the most important thing noted during this brief exploration was the presence of missing data, signified by NaN values in the train set. In the next phase of our data science exploration, we tackled the identification and imputation of these missing values.</p>
 
 </div>
@@ -11877,21 +11884,13 @@ In 2015, Rossmann sponsored a Kaggle competition focused on predicting its Germa
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Data-Imputation">Data Imputation<a class="anchor-link" href="#Data-Imputation">&#182;</a></h3><p>The first challenge we faced in imputing missing data was first identifying what stores, and on what dates, were missing values. We created a plot to identify those dates:</p>
-<p>[]</p>
+<p><img src="styles/p5.png" alt=""></p>
 <p>Training data had two cohorts of missing data: New Year’s Day in 2013 and an anomaly period of store refurbishments that took place between July 1st and December 31st of 2014</p>
-<p>From here, we took two strategies to imputing the two missing data cases:
-I. New Year’s Day 2013
-   i. Store 988 was missing data
-   ii. Imputed observations from 1/1/2014 for 2013
-      a. 0 customers, sales, and promotion, relevant holiday indicator
-II. Store Refurbishments 2014
-   i. 180 stores were missing
-   ii. Used plot of Store 13 Sales to guide imputation decisions
-   iii. Imputed missing values using median of column using following:
-      a. If Open == 0  Sales, Customers = 0
-      b. If Open == 1 Sales, Customers = median of column observa- 
-      tions where the full data shared same day of week and promotion</p>
-<p>[]</p>
+<p>From here, we took two strategies to imputing the two missing data cases.</p>
+<p>For New Year’s Day 2013, Store 988 was missing data so we imputed observations from 1/1/2014, when the store was closed. We assumed the store we be closed again, so we set customers, sales, and promotion, relevant holiday indicator to 0.</p>
+<p>For the 2014 Store Refurbishments, 180 stores were missing sales and customer data. We used a plot of individual stores Sales to guide imputation decisions conditionally. If the store was not open, we set sales and customers to 0. If the store was open, we took the median of the column observations where the store shared the same day and the week and the presence of a promotion.</p>
+<p>The blue is the result of our imputation:</p>
+<p><img src="styles/p6.png" alt=""></p>
 
 </div>
 </div>
@@ -11901,23 +11900,14 @@ II. Store Refurbishments 2014
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Data-Exploration">Data Exploration<a class="anchor-link" href="#Data-Exploration">&#182;</a></h3><p>The clearly heteroscedastic trend 
-rose our suspicions in regards to 
-potentially grouped data: could it be 
-that different store types have 
-different linear trends for Sales vs. 
-Customers? What attribute likely 
-accounts for this? Our analysis below
-shows that store type drove the trend.</p>
-<p>[]</p>
-<p>The exploratory data analysis of store types, sales, and customers rises important questions of socioeconomic factors. The only reasonable variable we have in this regards is distance of competitors, as density is likely correlated with wealthier zip codes.</p>
-<p>[]</p>
-<p>[]</p>
-<p>[]</p>
-<p>Already touching upon store types, and the consequential social and economic factors in play, we next observe potential trends and patterns in regards to store sales and seasonality.</p>
-<p>[]</p>
-<p>[]</p>
-<p>[]</p>
+<h3 id="Data-Exploration">Data Exploration<a class="anchor-link" href="#Data-Exploration">&#182;</a></h3><p>The clearly heteroscedastic trend rose our suspicions in regards to potentially grouped data. Our analysis showed that that store type drove the trend.</p>
+<p><img src="styles/p7.png" alt=""></p>
+<p><img src="styles/p8.png" alt=""></p>
+<p>However, distance to competitors did not, as we expected, correlate with stores sales. This may imply some level of marketplace efficiency.</p>
+<p><img src="styles/p9.png" alt=""></p>
+<p>Already touching upon store types, and the consequential social and economic factors in play, we next observe potential trends and patterns in regards to store sales and seasonality, where there is a clear relation.</p>
+<p><img src="styles/p11.png" alt=""></p>
+<p>We used this repetitious nature of the dataset as we modeled.</p>
 
 </div>
 </div>
@@ -11928,17 +11918,20 @@ shows that store type drove the trend.</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Data-Modeling">Data Modeling<a class="anchor-link" href="#Data-Modeling">&#182;</a></h3><p>In regards to final modeling (beyond multiple baseline approaches), we settled on presenting two quite different approaches. First, a rather simple approach that yielded surprisingly strong results was the concept of a moving-average. It required remarkably little information – just continuous data for the same dates being tested in a previous, data-reported year.</p>
-<p>[]</p>
+<p><img src="styles/p13.png" alt=""></p>
 <p>Ultimately, we see there is no need to use a more computational intensive, higher-numbered moving average as the root MSE’s from a random test set are nearly identical.</p>
-<p>Therefore, we explored the differences between 3, 5, and 7 day moving averages by viewing plots of the predictions on top of the actual plot of sales. The following charts demonstrate improved fit with lower number of days at the steep cost of overfitting, so the 
-   relatively “less fitted” 5 or 7 day averages may be preferred.</p>
-<p>[]
-[]
-[]</p>
-<p>Second, a more information-intensive and rigorous approach we took was vector auto regression (VAR). Our VAR train set was composed of all the original attributes of the train set, appended characteristics of each store from the description data, and appropriate lags found in autocorrelation plots below.</p>
-<p>[]
-[]
-[]</p>
+<p>Therefore, we explored the differences between 3, 5, and 7 day moving averages by viewing plots of the predictions on top of the actual plot of sales. The following charts demonstrate improved fit with lower number of days at the steep cost of overfitting, so the relatively “less fitted” 5 or 7 day averages may be preferred.</p>
+<p>3 day:
+<img src="styles/p14.png" alt="">
+5 day:
+<img src="styles/p15.png" alt="">
+7 day:
+<img src="styles/p16.png" alt=""></p>
+<p>Second, a more information-intensive and rigorous approach we took was vector auto regression (VAR). Our VAR train set was composed of all the original attributes of the train set, appended characteristics of each store from the description data, and appropriate lags found in partial autocorrelation and autocorrelation, as seen below.</p>
+<p><img src="styles/p17.png" alt="">
+<img src="styles/p18.png" alt=""></p>
+<p>Our final VAR model displayed a low mean-squared error, without signs of overfitting.
+<img src="styles/p19.png" alt=""></p>
 
 </div>
 </div>
@@ -11951,6 +11944,49 @@ shows that store type drove the trend.</p>
 <h3 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h3>
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>After testing a variety of models, including Decision Trees, Moving Average, and VAR, we decided that while the moving average model offers simplicity and easy comprehension, its error is considerably larger (by 0.09) than that of VAR, which we believe is our best model. Its error rate is very reasonable given the relative performance of the majority of Kaggle takers</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="o">%%</span><span class="k">html</span>
+
+Page Links — &lt;a href=&quot;index.html&quot; target=&quot;_self&quot;&gt;Project Overview Page&lt;/a&gt;
+— &lt;a href=&quot;page1.html&quot; target=&quot;_self&quot;&gt;Project Page&lt;/a&gt;
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+<div class="output_html rendered_html output_subarea ">
+
+Page Links — <a href="index.html" target="_self">Project Overview Page</a>
+— <a href="page1.html" target="_self">Project Page</a>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
     </div>
   </div>
